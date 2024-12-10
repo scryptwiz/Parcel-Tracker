@@ -1,12 +1,12 @@
-import {Text, View} from 'react-native'
-import React, {Component} from 'react'
+import React from 'react'
+import {Stack} from "expo-router";
 
-export default class _Layout extends Component {
-    render() {
-        return (
-            <View>
-                <Text>_Layout</Text>
-            </View>
-        )
-    }
+export default function RootLayout() {
+    return (
+        <Stack>
+            {/*<Stack.Screen name="(tabs)" options={{ headerShown: false }} />*/}
+            <Stack.Screen name="index" options={{headerShown: false}}/>
+            <Stack.Screen name="+not-found" options={{headerShown: false}}/>
+        </Stack>
+    )
 }

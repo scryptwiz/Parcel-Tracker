@@ -1,5 +1,5 @@
 import {StatusBar} from 'expo-status-bar';
-import {Pressable, SafeAreaView, StyleSheet, Text, View} from 'react-native';
+import {Pressable, SafeAreaView, Text, View} from 'react-native';
 import {router} from "expo-router";
 import {styles} from "../assets/styles/general";
 
